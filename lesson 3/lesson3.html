@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Lesson 3</title>
+</head>
+<body>
+	<h1> Урок "Формы": Теги и их атрибуты </h1> 
+	<h2>Расскажите немного о себе... </h2>
+	<h3>Попробуйте создать аналогичную форму... </h3>
+
+	<form action="mailto:sapetnyi@gmail.com" method="post">
+		<fieldset> <legend><strong>Коротко о себе</strong></legend> <br>
+				<label>Имя:</label> <input type="text" size="40" maxlength="50" name="block1" value="">  <br> 
+				<label>Фамилия:</label> <input type="text" size="40" maxlength="50" name="block1" value="">  <br>
+				<label>Пол:</label>
+				<input type="radio" value="man" name="1"><label>мужской </label>
+				<input type="radio" value="girl" name="1"><label>женский</label>  <br>
+				<label>Возраст:</label> <input type="text" size="2" maxlength="3" name="block1" value=""><label>лет</label><br>
+        </fieldset>
+        			
+        
+		<fieldset> <legend><strong>Подробнее о себе</strong></legend> <br>
+ 				<input name="2" type="radio" value="man"> <label>Молодой человек</label><br> 
+ 				<input type="radio" value="girl" name="2"> <label>Девушка</label> <br> 
+ 				<input type="text" size="40" maxlength="50" name="block2" value=""><label>Дата рождения</label> <br>
+ 				<input type="text" size="40" maxlength="50" name="block2" value=""><label>Семейное положение</label> <br>
+ 				<input type="text" size="40" maxlength="50" name="block2" value=""><label>Социальный статус</label> <br>
+ 				<input type="text" size="40" maxlength="50" name="block2" value=""><label>Место жительства</label> <br>
+			<p><strong>Что вы обычно делаете на выходных:</strong></p>
+ 				<input type="checkbox" name="box1" value="1"><label>Сплю</label><br>
+ 				<input type="checkbox" name="box1" value="2"><label>Гуляю </label><br>
+ 				<input type="checkbox" name="box1" value="3"><label>Рыбалка </label><br>
+ 				<input type="checkbox" name="box1" value="4"><label>ДЗ :)</label><br>
+ 			<p><strong>Рассказать о формах в книге, посвященной HTML:</strong></p>
+ 				<select size="1">
+  					<option value="form1">form1</option>
+  					<option selected value="form2">form2</option>
+  					<option value="form3">form3</option>
+ 					<option value="form4">form4</option>
+  				</select>
+ 			<p><strong>Сколько книг вы прочитали за свою жизнь:</strong></p>
+  				<input name="book" type="radio" value="0-10"> <label>0-10</label><br>
+  				<input name="book" type="radio" value="11-20"> <label>11-20</label><br> 
+  				<input name="book" type="radio" value="21-50"> <label>21-50</label><br> 
+  				<input name="book" type="radio" value="50+"> <label>50+</label><br> 
+  			<p><strong>Ваши комментарии:</strong></p>
+  				<textarea name="coments" rows="15" cols="70"></textarea> <br>
+   				<select size="3">
+  					<option value="1">Первая позиция</option>
+  					<option selected value="2">Вторая позиция</option>
+  					<option value="3">Третья позиция</option>
+  				</select>
+ 		</fieldset>
+                    
+                    
+ 		<fieldset><legend><strong>И в заключении</strong></legend> <br>
+ 				<input type="text" size="40" maxlength="50" name="no text" value="Это поле было введено для вас" disabled> <br>
+ 				<label><strong>Email:</strong></label><br><input type="text" size="40" maxlength="50" name="block1" value="">  <br> 
+ 			<p><strong>Хотите подписатся на самую модную рассылку спама?</strong><br><em>Выберите категории</em></p>
+  				<input name="box2" type="checkbox" value="1"> <label>Оборудование</label><br>
+  				<input name="box2" type="checkbox" value="2"> <label>Как приготовить обеды</label><br> 
+  				<input name="box2" type="checkbox" value="3"> <label>Как заработать миллион за 2 дня</label><br>
+  			<p><strong>На сколько сложная задача:</strong></p>
+  				<input name="task" type="radio" value="1"> <label>Совсем нет</label><br>
+  				<input name="task" type="radio" value="2"> <label>Так себе</label><br> 
+  				<input name="task" type="radio" value="3"> <label>Еле справились</label><br>  
+		</fieldset>
+        	<p><input type="submit" value="Send"></p>
+	</form>     
+</body>
+</html>
