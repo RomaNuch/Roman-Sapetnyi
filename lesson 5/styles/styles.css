@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+.title
+{
+	background-color:#000;
+	color:#FFF;
+	border:10px;
+}
+
+.header_1
+{
+	 list-style:square;
+}
+
+.footer_1
+{
+	background-color:#000;
+	color:#FF0;
+}
+
+h4
+{
+	color:#00C;
+}
+
+.content
+{
+	color:#FF0;
+	background-color: #060;
+	margin-left:30%;
+	margin-right:30%;
+	padding:2%;
+	text-align: left;
+	border-bottom:dashed #FFFF00;
+	border-top:dashed #FFFF00;
+	font-size:19px
+	
+}
+
+.content_1
+{
+	background: #CCC;
+	border:solid #060;
+	padding:12px;
+	text-align:right;
+}
+
+.li1 
+{
+	counter-reset: inherit;
+	color: #000;
+	font-weight: bold;
+}
+
+.li2
+{
+	text-decoration:underline;
+	color:#F00;
+}
+
+#config3
+{
+	font-style: italic;
+
+
+}
+
+#config4
+{
+	list-style: circle;	
+}
